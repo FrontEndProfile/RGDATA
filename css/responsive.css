@@ -1,0 +1,541 @@
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1184px;
+    }
+}
+
+@media (max-width: 1399px) {
+    .how-works .btn {
+        font-size: 24px;
+        padding: 16px 24px;
+    }
+
+    .heading2 {
+        font-size: 36px;
+    }
+
+    .card-represent .cardTitle {
+        padding: 14px 26px;
+        font-size: 24px;
+    }
+
+    .card-news p {
+        font-size: 16px;
+    }
+
+    .quiklinks li a {
+        font-size: 18px;
+    }
+
+    .brandsList {
+        padding: 100px 0;
+    }
+}
+
+
+@media(max-width:1199px) {
+    header .socialLinks li a {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .contact-links li, .contact-links li a {
+        font-size: 16px;
+    }
+
+
+    header .btn {
+        min-width: 120px;
+        height: 40px;
+        border-radius: 0;
+    }
+
+    .menu ul li a {
+        color: #000;
+        font-size: 16px;
+    }
+
+    .contact-links li {
+        margin-right: 40px;
+        margin-left: 0px;
+    }
+
+    .brand img {
+        max-width: 160px;
+    }
+
+    .menu ul li {
+        margin: 0 0 0 30px;
+        position: relative;
+    }
+
+    .card-box h3 {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .card-box {
+        padding: 26px 16px;
+    }
+
+    .card-box p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .contentHero p {
+        font-size: 20px;
+    }
+
+    .card-represent .cardTitle {
+        padding: 14px 20px;
+        font-size: 20px;
+    }
+
+    .heading2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .how-works {
+        padding: 50px 0;
+    }
+
+    .card-represent .cardTitle {
+        padding: 15px 15px;
+        font-size: 18px;
+    }
+
+    .representation .row {
+        margin: 0 -20px;
+    }
+
+    .representation [class*="col-"] {
+        padding: 0 20px;
+    }
+
+    .card-news p {
+        min-height: 78px;
+    }
+
+    .brandsList {
+        padding: 50px 0;
+    }
+
+    .cardnews .newsTitle {
+        font-size: 21px;
+    }
+}
+
+@media(max-width:991px) {
+    header {
+        position: relative;
+    }
+
+    header .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        background: #fff;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .navbar-toggler:focus,
+    header .navbar-toggler {
+        margin-left: auto;
+        box-shadow: none;
+        outline: none;
+    }
+
+    .contact-links li {
+        padding: 0 8px;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .contact-links li i {
+        font-size: 18px;
+    }
+
+    header .socialLinks li a {
+        width: 40px;
+        height: 40px;
+    }
+
+    header .btn {
+        min-width: 123px;
+        height: 36px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .menu ul li a {
+        border-top: 1px solid #ddd;
+        padding: 10px 0;
+    }
+
+    .menu ul li {
+        width: 100%;
+        margin: 0;
+    }
+
+    .menu ul li ul {
+        position: relative;
+        min-width: 100%;
+        background: transparent;
+        padding: 0;
+    }
+
+
+
+    .menu ul li ul li a {
+        border-top: 1px solid #ddd;
+        border-bottom: none;
+        padding: 15px 0;
+        padding-left: 30px;
+    }
+
+    .menu ul li ul li ul {
+        right: -40px;
+    }
+
+
+    .menu {
+        padding: 0 15px 15px;
+    }
+
+    .brand img {
+        max-width: 140px;
+    }
+
+    header .navbar {
+        padding: 20px 0;
+    }
+
+    .navbar-toggler {
+        padding: 0;
+        border: none;
+        border-radius: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contentHero p {
+        font-size: 16px;
+    }
+
+    .card-box {
+        margin-bottom: 30px;
+        height: auto;
+    }
+
+    .card-represent {
+        margin-bottom: 30px;
+    }
+
+    .quiklinks {
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .socialFooter {
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    footer {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .brandsList ul {
+        margin: 0;
+    }
+
+    .quiklinks li {
+        padding: 5px 10px;
+    }
+
+    .brandsList ul li {
+        margin: 0;
+        padding: 0 20px;
+    }
+
+
+    .brandsList {
+        padding: 50px 0;
+    }
+
+    .cardnews {
+        margin-bottom: 30px;
+    }
+
+    .card-news p {
+        font-size: 14px;
+        line-height: 20px;
+        min-height: 80px;
+    }
+
+    .titlePage h3 {
+        font-size: 20px;
+    }
+
+    .titlePage {
+        padding: 15px 0;
+    }
+
+    .main {
+        padding: 50px 0;
+    }
+
+    .infoWrapper {
+        margin-bottom: 30px;
+    }
+
+    .main .infoWrapper p {
+        font-weight: 500;
+        font-size: 17px;
+        color: #042134;
+        line-height: 30px;
+        margin: 0 0 25px 0;
+    }
+
+    .news h2 {
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .menu ul li ul li a {
+        color: black;
+    }
+
+    .news {
+        padding: 50px 0 0;
+    }
+}
+
+@media(max-width:767px) {
+    .container, .container-sm {
+        max-width: 100%;
+    }
+
+    header .socialLinks {
+        margin: 0 -1.5px;
+    }
+
+    .brand img {
+        max-width: 160px;
+    }
+
+    .contentHero {
+        padding: 15px 0;
+    }
+
+    .contentHero p {
+        font-size: 16px;
+    }
+
+    .card-box p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .card-box h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .how-works .btn {
+        font-size: 16px;
+        padding: 12px 20px;
+        margin: 0;
+    }
+
+    .heading2 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .brandsList ul {
+        flex-wrap: wrap;
+    }
+
+    .brandsList ul li {
+        padding: 0 10px;
+    }
+
+    .brandsList ul li img.horgans-img {
+        height: 40px;
+    }
+
+    .brandsList ul li img.national-img {
+        height: 70px;
+    }
+
+    .brandsList ul li img.excel-img {
+        height: 40px;
+    }
+
+    .brandsList ul li img.excel-img {
+        height: 50px;
+    }
+
+    .brandsList ul li img.national-img {
+        height: 85px;
+    }
+
+    .brandsList ul li img.horgans-img {
+        height: 48px;
+    }
+
+    .representation {
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .card-represent .cardTitle br {
+        display: none;
+    }
+
+    .card-news p {
+        font-size: 16px;
+        line-height: 22px;
+        min-height: auto;
+    }
+
+    .control {
+        margin-top: 30px;
+    }
+
+    .brandsList {
+        padding: 0 0 50px;
+    }
+
+    .representation .row {
+        margin: 0 -15px;
+    }
+
+    .representation [class*="col-"] {
+        padding: 0 15px;
+    }
+
+    .latestNews .heading2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+        line-height: 30px;
+    }
+
+
+    .news h2 {
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+    .modalContent {
+        padding: 50px 20px;
+    }
+
+    .modal-btn {
+        font-size: 14px;
+        padding: 10px 13px;
+    }
+
+    .card-modal {
+        max-width: 95%;
+    }
+
+    .contact-links li {
+        padding: 0 5px;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .contact-links li a {
+        font-size: 14px;
+    }
+
+    .main {
+        padding: 20px 0;
+    }
+
+    .titlePage h3 {
+        font-size: 24px;
+    }
+
+    .main .infoWrapper p {
+        font-size: 17px;
+        padding-top: 14px;
+    }
+
+    .modalWrapper ul {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .modalWrapper ul li {
+        padding: 0 0 10px 0;
+        width: 60%;
+    }
+}
+
+@media(max-width:680px) {
+    header .cta-login {
+        display: none;
+    }
+
+    .contact-links {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:576px) {
+    .modalWrapper ul {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .modalWrapper ul li {
+        width: 100%;
+    }
+
+    /* s */
+
+    header .btn {
+        display: none;
+    }
+
+    header .socialLinks li a {
+        width: 36px;
+        height: 36px;
+    }
+
+    .contact-links li {
+        padding: 0 5px;
+
+    }
+
+    .modalWrapper ul li:last-child {
+        padding: 0;
+    }
+
+    .menu ul li ul li ul li {
+        padding-left: 20px !important;
+    }
+
+    .menu ul li ul li ul {
+        right: 0;
+    }
+
+    .modalWrapper h2 {
+        max-width: 450px;
+    }
+}
