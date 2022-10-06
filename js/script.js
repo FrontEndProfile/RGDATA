@@ -58,3 +58,12 @@
 //   },
 // });
 
+var selector = $('.owl-two');
+
+$('.my-next-button').click(function() {
+  selector.trigger('next.owl.carousel');
+});
+
+$('.my-prev-button').click(function() {
+  selector.trigger('prev.owl.carousel');
+});
