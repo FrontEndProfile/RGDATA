@@ -1,62 +1,4 @@
 
-// var swiper = new Swiper(".heroSwiper", {
-//   slidesPerView: 2,
-//   spaceBetween: 5,
-//   loop: true,
-//   autoplay: true,
-//   autoplay: {
-//     delay: 5000,
-//   },
-//   breakpoints: {
-//     300: {
-//       slidesPerView: 1,
-//       spaceBetween: 0,
-//     },
-
-//     576: {
-//       slidesPerView: 2,
-//       spaceBetween: 5,
-//     },
-//     992: {
-//       slidesPerView: 3,
-//       spaceBetween: 5,
-//     },
-//   },
-// });
-
-
-
-// var swiper = new Swiper(".destop-Swiper", {
-//   slidesPerView: 3,
-//   spaceBetween: 5,
-//   loop: true,
-//   autoplay: false,
-// });
-
-// var swiper = new Swiper(".newsSlider", {
-//   slidesPerView: 3,
-//   spaceBetween: 30,
-//   loop: true,
-//   navigation: {
-//     nextEl: ".swiper-button-next",
-//     prevEl: ".swiper-button-prev",
-//   },
-//   breakpoints: {
-//     300: {
-//       slidesPerView: 1,
-//       spaceBetween: 0,
-//     },
-
-//     768: {
-//       slidesPerView: 2,
-//       spaceBetween: 40,
-//     },
-//     1024: {
-//       slidesPerView: 3,
-//       spaceBetween: 30,
-//     },
-//   },
-// });
 
 var selector = $('.owl-two');
 
@@ -66,4 +8,57 @@ $('.my-next-button').click(function() {
 
 $('.my-prev-button').click(function() {
   selector.trigger('prev.owl.carousel');
+});
+
+
+    $(document).ready(function(){
+    $('.owl-one').owlCarousel({
+        loop: true,
+            margin: 10,
+            navRewind: false,
+            dots:false,
+
+            autoplay:true,
+            autoplayTimeout:10000,
+            
+            responsive: {
+              0: {
+                items: 1,
+                autoplay:true,
+                autoplayTimeout:5000,
+              },
+              600: {
+                items: 2,
+                autoplay:true,
+                autoplayTimeout:5000,
+              },
+              1000: {
+                items: 3
+              }
+            }
+    });
+
+    $('.owl-two').owlCarousel({
+        loop: true,
+        margin: 10,
+        navRewind: false,
+        dots:false,
+        nav:false,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
+        responsive: {
+            0: {
+            items: 1
+            },
+            600: {
+            items: 2
+            },
+            1000: {
+            items: 3
+            }
+        }
+    });
+
+    
 });
